@@ -1,23 +1,16 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
+# .NET build output and local tools
+**/bin/
+**/obj/
+.vs/
 .vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-files
-*.bclicense
-*.flf
-#Test results file
-TestResults.xml
+.idea/
+.config/
+TestResults/
+coverage/
+artifacts/
+*.user
+*.suo
+*.nupkg
+
+# Protocol research material is intentionally not part of this Apache-2.0 project
+参考项目/
